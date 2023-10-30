@@ -13,3 +13,4 @@ lombok -
 
 jakarta.persistence-api - Annotations: JPA provides a set of annotations that allow developers to map Java objects to database tables. Annotations like @Entity, @Table, @Column, @Id, @GeneratedValue, etc., are commonly used for mapping Java classes and their properties to corresponding database entities and columns.
 
+![Alt text](image.png)
