@@ -16,3 +16,8 @@ jakarta.persistence-api - Annotations: JPA provides a set of annotations that al
 ![Alt text](image.png)
 
 MinIO Object Storage for Container
+
+## Run Project:
+
+Terminal 1: cd project && docker compose up
+Terminal 2: cd /workspaces/udd/project ; /usr/bin/env /usr/local/sdkman/candidates/java/17.0.9-ms/bin/java @/tmp/cp_8kpon2gwn39yxpiqim7qtfbob.argfile com.udd.project.ProjectApplication
