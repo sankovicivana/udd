@@ -21,3 +21,7 @@ MinIO Object Storage for Container
 
 Terminal 1: cd project && docker compose up
 Terminal 2: cd /workspaces/udd/project ; /usr/bin/env /usr/local/sdkman/candidates/java/17.0.9-ms/bin/java @/tmp/cp_8kpon2gwn39yxpiqim7qtfbob.argfile com.udd.project.ProjectApplication
+
+## Issue with GPG2 Commit:
+
+git config --unset commit.gpgsign
