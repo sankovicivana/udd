@@ -25,3 +25,8 @@ Terminal 2: cd /workspaces/udd/project ; /usr/bin/env /usr/local/sdkman/candidat
 ## Issue with GPG2 Commit:
 
 git config --unset commit.gpgsign
+
+# Zahtev zadatka
+U prilogu se nalazi šablon (format) ugovora koji vaš sistem treba da podržava. Dokument sa zakonima postmatrate, za potrebe ovog predmeta, kao full-text.
+
+Varijabilan tekst (čiji podskup trebate da parsirate) se nalazi između znakova "<>" dok je sav ostali tekst zakucan na pozicijama na kojima je specificiran u šablonu (možete ga iskoristiti kao referencu prilikom parsiranja regex izrazima).
