@@ -16,11 +16,11 @@ public class ClsApplication {
 		SpringApplication.run(ClsApplication.class, args);
 	}
 
-    @Bean
-    ApplicationRunner applicationRunner(Environment environment) {
-        return args -> {
-            System.out.println("message from application.properties " + environment.getProperty("minio.host"));
-        };
-    }
+    // @Bean
+    // ApplicationRunner applicationRunner(Environment environment) {
+    //     return args -> {
+    //         System.out.println("message from application.properties " + environment.getProperty("minio.host"));
+    //     };
+    // }
 
 }

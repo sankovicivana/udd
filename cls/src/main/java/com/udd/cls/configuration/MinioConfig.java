@@ -21,7 +21,9 @@ public class MinioConfig {
     public MinioClient minioClient() {
 
         System.out.println(host);
-        return MinioClient.builder().endpoint(host).credentials(accessKey, secretKey)
+        return MinioClient.builder()
+            .endpoint(host)
+            .credentials(accessKey, secretKey)
             .build();
     }
 }
