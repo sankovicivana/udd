@@ -14,13 +14,7 @@ public class ProjectApplication {
 
   public static void main(String[] args) {
     SpringApplication.run(ProjectApplication.class, args);
-<<<<<<< HEAD
-    // log.info("STATISTIC-LOG serveFile -> ");
-    // System.out.println("Project started");
-=======
-    //log.info("STATISTIC-LOG serveFile -> ");
-    //System.out.println("Project started");
->>>>>>> a13e7b2 (test)
+    System.out.println("Project started");
   }
 
 }

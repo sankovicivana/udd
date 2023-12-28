@@ -11,5 +11,4 @@ public interface ContractRepositoryES extends ElasticsearchRepository <ContractE
 
     List<ContractES> findByCity(String city);
 
-
 }
