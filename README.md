@@ -30,3 +30,14 @@ git config --unset commit.gpgsign
 U prilogu se nalazi šablon (format) ugovora koji vaš sistem treba da podržava. Dokument sa zakonima postmatrate, za potrebe ovog predmeta, kao full-text.
 
 Varijabilan tekst (čiji podskup trebate da parsirate) se nalazi između znakova "<>" dok je sav ostali tekst zakucan na pozicijama na kojima je specificiran u šablonu (možete ga iskoristiti kao referencu prilikom parsiranja regex izrazima).
+
+# List Indexes
+https://musical-computing-machine-9wjqjpj67w9c4jg-5601.app.github.dev/app/management/data/index_management/indices
+
+https://musical-computing-machine-9wjqjpj67w9c4jg-5601.app.github.dev/app/dev_tools#/console
+```GET /contractindex/_search```
+
+# Get List of Contracts
+
+https://musical-computing-machine-9wjqjpj67w9c4jg-5601.app.github.dev/app/dev_tools#/console
+```GET /contractindex/_search```
